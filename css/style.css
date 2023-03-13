@@ -1,0 +1,22 @@
+html{
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+.item{
+    width: 200px;
+    height: 100px;
+    background-color: green;
+    padding: 20px;
+}
+
+.wrapper{
+    max-width: 1270;
+    margin: 0 auto;
+}
+
+.header_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
